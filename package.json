@@ -1,6 +1,6 @@
 {
   "name": "joker",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Application that tells jokes, CSS only e-commerce application, Personal collection of useful functions, etc.",
   "type": "module",
   "main": "src/index.js",
@@ -8,7 +8,20 @@
     "lint": "eslint src/**/*.js",
     "lint-fix": "eslint src/**/*.js --cache --fix",
     "test": "node src/js/joker.test.js",
-    "format": "prettier -w src/js/joker.js"
+    "format": "prettier -w src/js/joker.js",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "eslint --fix"
+    ],
+    "*.html": [
+      "prettier --write"
+    ],
+    "*.scss": [
+      "prettier --write"
+    ]
   },
   "repository": {
     "type": "git",
@@ -28,6 +41,8 @@
   "homepage": "https://github.com/Martinsn676/joker#readme",
   "devDependencies": {
     "eslint": "^8.57.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
     "prettier": "^3.2.5"
   },
   "dependencies": {
