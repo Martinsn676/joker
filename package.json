@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/Martinsn676/joker/issues"
   },
-  "homepage": "https://github.com/Martinsn676/joker#readme"
+  "homepage": "https://github.com/Martinsn676/joker#readme",
+  "dependencies": {
+    "one-liner-joke": "^1.2.2"
+  }
 }
