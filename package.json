@@ -11,6 +11,18 @@
     "format": "prettier -w src/js/joker.js",
     "prepare": "husky install"
   },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "eslint --fix"
+    ],
+    "*.html": [
+      "prettier --write"
+    ],
+    "*.scss": [
+      "prettier --write"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Martinsn676/joker.git"
@@ -36,11 +48,5 @@
   "dependencies": {
     "example-joker": "^0.0.4",
     "give-me-a-joke": "^0.3.2"
-  },
-  "lint-staged": {
-    "*.js": [
-      "eslint --cache --fix",
-      "prettier --write"
-    ]
   }
 }
