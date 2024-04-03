@@ -1,0 +1,25 @@
+{
+  "name": "joker",
+  "version": "0.0.1",
+  "description": "Application that tells jokes, CSS only e-commerce application, Personal collection of useful functions, etc.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Martinsn676/joker.git"
+  },
+  "keywords": [
+    "css",
+    "e-commerce",
+    "portfolio",
+    "website"
+  ],
+  "author": "Martinsn <marnyg52544@stud.noroff.no>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Martinsn676/joker/issues"
+  },
+  "homepage": "https://github.com/Martinsn676/joker#readme"
+}
