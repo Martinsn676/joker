@@ -1,3 +1,4 @@
-import joker from 'one-liner-joke';
+import joker from "one-liner-joke";
 
-console.log( joker.getRandomJoke().body );
+console.log(joker.getRandomJoke().body);
+const sadsad = "asdasd";
